@@ -1,0 +1,8 @@
+{
+  "name": "自用 https proxy",
+  "description": "自用 https proxy",
+  "image": "heroku/nodejs",
+  "repository": "https://github.com/heyongwei/whistle",
+  "keywords": ["https", "proxy"],
+  "website": "https://github.com/heyongwei"
+}
