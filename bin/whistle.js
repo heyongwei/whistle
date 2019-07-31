@@ -107,6 +107,7 @@ program
   .option('--no-prev-options', 'do not reuse the previous options when restarting');
 
 var argv = process.argv;
+argv[3] = process.env.PORT||argv[3]
 var cmd = argv[2];
 var storage;
 var removeItem = function(list, name) {
