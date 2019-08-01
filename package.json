@@ -109,5 +109,6 @@
     "webpack": "1.11.0",
     "whistle.test": "*",
     "ws": "^1.1.4"
-  }
+  },
+  "main": "./bin/whistle.js run -p 8888"
 }
