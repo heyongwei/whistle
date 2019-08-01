@@ -1,1 +1,1 @@
-web: node ./bin/whistle.js run -p 8888
+web: npm install -g whistle;w2 start;
