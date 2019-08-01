@@ -1,5 +1,6 @@
 {
   "name": "whistle",
+    "description": "A sample Node.js app using Express 4",
   "description": "HTTP, HTTPS, Websocket debugging proxy",
   "version": "1.15.12",
   "dataDirname": ".whistle",
@@ -73,7 +74,7 @@
     "docs:dev": "vuepress dev docs"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": "10.x"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",
@@ -110,5 +111,6 @@
     "whistle.test": "*",
     "ws": "^1.1.4"
   },
-  "main": "./bin/whistle.js run -p 8888"
+  "main": "node ./bin/whistle.js run -p 8888",
+   "license": "MIT"
 }
